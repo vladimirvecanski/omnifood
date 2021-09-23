@@ -24,11 +24,12 @@
   .hero-text-box {
     font-size: 80%;
   }
-  .btn-full {
-    margin-left: 20%;
-  }
   .app-screen {
     width: 75%;
+  }
+  .btn-full:link,
+  .btn-full:visited {
+    margin-right: 0;
   }
   .footer-nav li,
   .social-links li {
@@ -41,13 +42,13 @@
   .main-nav li {
     display: flex;
   }
-  .hero-text-box {
-    font-size: 60%;
+  h1 {
+    font-size: 220%;
+    text-align: center;
   }
-  .btn-full {
-    margin-left: 18%;
+  .hero-text-box a {
+    margin-left: 7%;
   }
-
   h2 {
     font-size: 150%;
   }
@@ -73,16 +74,14 @@
 @media only screen and (max-width: 360px) {
   .hero-text-box {
     margin-top: 25%;
-    font-size: 50%;
   }
-  .btn-full {
-    margin-left: 5%;
+  .hero-text-box a {
+    margin-left: 25%;
+    margin-bottom: 7%;
   }
-
   h2 {
     font-size: 140%;
   }
-
   .steps-box1 {
     display: flex;
     justify-content: center;
